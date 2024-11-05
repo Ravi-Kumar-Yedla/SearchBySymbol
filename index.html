@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Cryptocurrency Dashboard</h1>
+    <div class="container">
+        <!-- Search and Sort UI -->
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Search by Name or Symbol">
+            <button id="sort-market-cap">Sort by Market Cap</button>
+            <button id="sort-percent-change">Sort by 24h Percentage Change</button>
+        </div>
+
+        <!-- Table for rendering data -->
+        <table id="crypto-table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Symbol</th>
+                    <th>Current Price (USD)</th>
+                    <th>Total Volume</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data rows will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
